@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
 body {
   background: #0f1516;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Indie Flower', cursive;
 }
 @media (max-width: 33.9em) {
   body {
@@ -49,7 +49,7 @@ a:hover {
 .btn {
   color: #113a47;
   text-decoration: none;
-  font-family: "Orbitron", sans-serif;
+  font-family: "Shadows Into Light", sans-serif;
   background: #d7ecff;
 }
 .btn:hover {
@@ -93,14 +93,14 @@ header .logo img {
 header .logo .title {
   line-height: 100px;
   color: #d7ecff;
-  font-family: "Orbitron", sans-serif;
+  font-family: "Shadows Into Light", sans-serif;
   text-shadow: 0 0 1px #fff, 0 0 5px #fff, 0 0 15px #228dff;
 }
 section.main {
   color: #d7ecff;
 }
 section.main .post {
-  margin-top: 200px;
+  margin-top: 50px;
 }
 @media (max-width: 33.9em) {
   section.main .post {
@@ -148,7 +148,7 @@ section.main .post .post-header:after {
 }
 section.main .post .post-header h1.title {
   text-align: center;
-  font-family: "Orbitron", sans-serif;
+  font-family: "Shadows Into Light", sans-serif;
   text-shadow: 0 0 1px #fff, 0 0 5px #fff, 0 0 15px #228dff;
   cursor: pointer;
 }
@@ -167,7 +167,7 @@ section.main .post .post-header .post-info {
   margin-top: 15px;
   text-align: center;
   text-transform: uppercase;
-  font-family: "Orbitron", sans-serif;
+  font-family: "Shadows Into Light", sans-serif;
 }
 section.main .post .post-header .post-info span {
   padding: 10px;
@@ -214,7 +214,7 @@ section.main .post .content .gallery-container .picture-container a .img-thumbna
 }
 section.main .post .read-more {
   margin: 10px auto;
-  font-family: "Orbitron", sans-serif;
+  font-family: "Shadows Into Light", sans-serif;
   text-transform: uppercase;
 }
 section.main .post .comments {
@@ -228,7 +228,7 @@ section.main .post .comments {
 section.main .post-tags {
   margin-top: 60px;
   text-transform: uppercase;
-  font-family: "Orbitron", sans-serif;
+  font-family: "Shadows Into Light", sans-serif;
 }
 section.main .post-tags a,
 section.main .post-tags i {
@@ -254,7 +254,7 @@ section.main .post .content h4,
 section.main .post .content h5,
 section.main .post .content h6 {
   color: #d7ecff;
-  font-family: "Orbitron", sans-serif;
+  font-family: "Shadows Into Light", sans-serif;
 }
 section.main .post .content h1,
 section.main .post .content h2 {
@@ -317,7 +317,7 @@ section.main .post .content blockquote p {
 section.main .post .content blockquote footer {
   text-align: right;
   padding: 25px 10px 10px 10px;
-  font-family: "Orbitron", sans-serif;
+  font-family: "Shadows Into Light", sans-serif;
   overflow: auto;
 }
 section.main .post .content blockquote footer strong:before {
@@ -426,7 +426,7 @@ section.main .post .content .video-container embed {
   padding: 5px;
 }
 .menu-bg .menu-container ul li a {
-  font-family: "Orbitron", sans-serif;
+  font-family: "Shadows Into Light", sans-serif;
   text-transform: uppercase;
   font-size: 30px;
   border-bottom: none;
@@ -507,7 +507,7 @@ footer.footer-content a:active {
   cursor: pointer;
 }
 footer.footer-content h2 {
-  font-family: "Orbitron", sans-serif;
+  font-family: "Shadows Into Light", sans-serif;
   padding-bottom: 30px;
   font-size: 1.5em;
 }
@@ -550,7 +550,7 @@ footer.footer-content .footer-social-icons li a:active {
 }
 footer.footer-content .footer-copyright {
   margin: 0 0 40px 0;
-  font-size: 0.7em;
+  font-size: 1.4em;
 }
 code {
   color: #a9b7c6;
