@@ -44,6 +44,21 @@
     
     <title>Contact Us - UKExamHub</title>
 
+    <link rel="manifest" href="/manifest.json" />
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+    <script>
+    var OneSignal = window.OneSignal || [];
+    OneSignal.push(function() {
+        OneSignal.init({
+        appId: "fda3f69b-8ad0-4b2e-979e-828c6a0ee23c",
+        autoRegister: false,
+        notifyButton: {
+            enable: true,
+        },
+        });
+    });
+    </script>
+
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Shadows+Into+Light" rel="stylesheet">
 
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
