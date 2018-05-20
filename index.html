@@ -93,12 +93,12 @@
     </script>
 
 
-
+    
 </head>
 
 
 <body>
-
+<div class="hameid-loader-overlay"></div>
 <div class="bg-gradient"></div>
 <div class="bg-pattern"></div>
 
@@ -409,6 +409,13 @@
 
 <!-- jQuery -->
 <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+
+<script>
+        jQuery(window).load(function(){
+            jQuery(".hameid-loader-overlay").fadeOut(500);
+        });
+    </script>
+    
 
 <!-- Tween Max -->
 <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.5/TweenMax.min.js"></script>
