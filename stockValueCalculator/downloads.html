@@ -1,0 +1,44 @@
+<html>
+    <head>
+      
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      
+   </head>
+   <body>
+      
+    <div id="container"></div>
+ 
+    <script type="text/javascript">
+
+    $.getJSON("exchange.json", function(json){
+        
+        for(var i in json){
+            var code = json[i].CODE;
+            console.log(code);
+            $.get("https://eodhistoricaldata.com/api/exchanges/"+code+"?api_token=5b0e43f3434df9.84460039&fmt=json", function(obj){
+                var name = obj[0].Exchange;
+                var data  = "text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(obj));
+                var a       = document.createElement('a');
+                a.href      = 'data:' + data;
+                a.download  =  name+'.json';
+                a.innerHTML = 'download'+ name+' .json file of json<br><br>';
+            
+                document.getElementById('container').appendChild(a);
+ 
+            });
+        }
+    });
+          
+    //   var obj   = {a: 123, b: "4 5 6"};
+    //   var data  = "text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(obj));
+ 
+    //   var a       = document.createElement('a');
+    //   a.href      = 'data:' + data;
+    //   a.download  = 'data.txt';
+    //   a.innerHTML = 'download .txt file of json';
+ 
+    //   document.getElementById('container').appendChild(a);
+ 
+      </script>
+   </body>
+</html>
