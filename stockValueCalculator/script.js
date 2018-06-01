@@ -1,9 +1,5 @@
 
 $(document).ready(function(){
-
-
-
-
   
 
    var proxy = "https://cors-anywhere.herokuapp.com/";
@@ -12,9 +8,12 @@ $(document).ready(function(){
   $(document).ajaxStart(function(){
     $(".modal").css("display", "block");
   });
-  $(document).ajaxComplete(function(){
-      $(".modal").css("display", "none");
-  });
+  // $(document).ajaxComplete(function(){
+  //     $(".modal").css("display", "none");
+  // });
+  $(document).ajaxStop(function () {
+    $(".modal").css("display", "none");// 0 === $.active
+});
  
   
 
@@ -179,6 +178,7 @@ var current = d.getFullYear() + '-' +
 
   $("#submit").click(function(){
 
+    
 
     $('#exchange').selectpicker('refresh');
     
