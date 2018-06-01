@@ -1,8 +1,14 @@
 
 $(document).ready(function(){
+
+      $('.datepicker').datepicker({
+        format: 'yyyy-mm-dd',
+        daysOfWeekDisabled: "0, 6",
+        // endDate: "today"
+    });
   
 
-   var proxy = "https://cors-anywhere.herokuapp.com/";
+  var proxy = "https://cors-anywhere.herokuapp.com/";
   //var proxy = "";
   
   $(document).ajaxStart(function(){
